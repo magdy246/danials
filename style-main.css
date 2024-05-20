@@ -535,10 +535,6 @@ html:has(#close:checked) {
     padding-block: 100px;
 }
 
-.castum-container {
-    padding-inline: 60px;
-}
-
 .items-contactus span {
     font-size: 11px;
     color: var(--secondry1-bg-color);
