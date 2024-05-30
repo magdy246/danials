@@ -91,12 +91,13 @@
 }
 
 .navbar {
-    background-color: #0007;
+    backdrop-filter: blur(30px);
+    box-shadow: 0px 0px 30px #000;
 }
 
 .navbar-brand {
     font-family: var(--Montserrat-B);
-    --bs-navbar-brand-color: var(--secondry-color);
+    --bs-navbar-brand-color: var(--bg-color-card);
     --bs-navbar-brand-hover-color: var(--secondry-color);
 }
 
@@ -122,6 +123,7 @@
 
 #navbar-id .nav-underline .nav-link.active,
 .nav-underline .show>.nav-link {
+    color: var(--secondry1-bg-color);
     width: 100%;
 }
 
